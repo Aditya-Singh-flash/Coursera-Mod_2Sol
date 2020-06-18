@@ -1,0 +1,91 @@
+h1{
+	text-align: center;
+	color:red;
+}
+div{
+	display: table;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+@media screen and (min-width:992px){
+#d1,#d2,#d3{
+	width:31%;
+	height: 300px;
+	display: table-cell;
+	position: relative;
+	text-align: center;
+	float:left;
+	clear: right;
+	margin: 10px;
+	padding:50px;
+	box-sizing: border-box;
+	border:5px solid black;
+	background-color: #DA70D6;
+   }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+#d1,#d2{
+	width:47.3%;
+	height:300px;
+	position: relative;
+	top: 10px;
+	float:left;
+	clear: right;
+	text-align: center;
+	display: table-cell;
+	margin: 10px;
+	padding:50px;
+	box-sizing: border-box;
+	border:5px solid black;
+	background-color: #DA70D6;
+   }
+ #d3{
+ 	width:97%;
+	position: relative;
+	top: 10px;
+	float:left;
+	clear: right;
+	text-align: center;
+	margin: 10px;
+	padding:50px;
+	box-sizing: border-box;
+	border:5px solid black;
+	background-color: #DA70D6;
+ }
+}
+@media screen and (max-width:767px){
+#d1,#d2,#d3{
+	width:80%;
+	position: relative;
+	top: 10px;
+	text-align: center;
+	float:left;
+	clear: right;
+	margin:10px 50px;
+	padding:50px;
+	box-sizing: border-box;
+	border:5px solid black;
+	background-color: #DA70D6;
+   }
+}
+#d4,#d5,#d6{
+	font-size: 125%;
+	font-family: Lucida Console, Courier, monospace;
+	text-align: center;
+	font-weight: bold;
+	float: right;
+	border: 2px solid black;
+	margin: 0px;
+	position: absolute;
+	padding: 10px;
+	top: 0px;
+	right: 0px;
+}
+#d4{
+	background-color: #87CEFA;
+}
+#d5{
+	background-color: #FFA07A;
+}
+#d6{
+	background-color: #66CDAA;
+}
